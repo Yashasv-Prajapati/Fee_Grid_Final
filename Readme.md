@@ -8,13 +8,17 @@ Database: SQL database
 
 On opening the site, you have to login through your institute ID to login as a student and if you are admin then you have to login through your admin account. All authentication is done through your Google ID.
 
-To run this, you have to setup xampp and sql.
+To run this, clone this whole repository and now you have to setup xampp and sql.
 You can download xampp from this link: https://www.apachefriends.org/download.html
+Now, install xampp in C/ and after that in xampp folder, go to htdocs and create a new folder and copy all content of this repository to that.
+
 You have to setup xampp now, and start Apache and MySQL.
 
 Now, open MySQL as admin by clicking on the Admin button beside Start button. This will open localhost/phpmyadmin, and you have to create a new database now. 
-To create a new database, click on New as shown in the image
+To create a new database, click on New as shown in the image.
 
 ![image](https://user-images.githubusercontent.com/40720591/163674980-3e1f341c-ae0d-4791-88c6-5e9876b34c56.png)
+
+
 
 
