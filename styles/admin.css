@@ -1,0 +1,201 @@
+body {
+  background-color: #F7F5F2;
+}
+.right-al {
+    margin-left: auto;
+}
+.tables {
+  font-family: 'Raleway', sans-serif;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav div {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav div:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/* Add Record */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+form div{
+    margin: 2rem;
+ }
+
+form div label{
+    font-style: 'Poppins', sans-serif;
+    margin-right: 1rem;
+    font-weight: bold;
+}
+
+
+form div input{
+    width: 40vw;
+}
+
+input[type="text"] {
+    width: 30vw;
+}
+
+
+.form-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+
+.centres {
+   /* position: relative; */
+   margin: 40vh;
+}
+
+#add-c-1 .search .row label{
+   margin: 0.5rem;
+   font-size: 1rem;
+   /* font-family: 'Poppins'; */
+}
+
+
+
+/* Search */
+
+.search{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap; 
+}
+
+#view_record{
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   top: 45vh;
+}
+
+.search .row{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: nowrap;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+}
+
+.search-button{
+   position: relative;
+   display: flex;
+   justify-content: center;
+   margin:1rem;
+   /* border: 1px solid red; */
+}
+
+/* View Record */ 
+
+#view_record label{
+   font-weight: bold;
+   font-family: 'Poppins', sans-serif;
+   font-size: 1rem;
+}
+
+/* #view_record div option{
+   width: 3rem;
+   font-size: 2rem;
+} */
+
+#view_record .row{
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   align-items: center;
+}
+
+#view_record div{
+   margin-left: 1rem;
+}
+
+#add-c-2
+{
+	display:none;
+}
+#update-c-1
+{
+	display:none;
+}
+#update-c-1
+{
+	display:none;
+}
+#update-c-2
+{
+	display:none;
+}
+#view-c-1
+{
+	display:none;
+}
+#view-c-2
+{
+   display:none;
+}
+#search-c-1
+{
+	display:none;
+}
+#search-c-2
+{
+	display:none;
+}
+#delete-c-1
+{
+	display:none;
+}
+#delete-c-2
+{
+	display:none;
+}
+#update-c-1
+{
+	display:none;
+}
+#update-c-2
+{
+	display:none;
+}
